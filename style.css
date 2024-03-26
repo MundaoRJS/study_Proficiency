@@ -43,8 +43,34 @@ header > nav > ul > li > a > img{
     height: 80px;
     border-radius: 50px;
 }
+#hist{
+    width: 100%;
+    display: flex;
+}
 
-a{
+#barra_lateral{
+    width: 200px;
+    font-size: medium;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+#barra_lateral > ul{
+    width: 180px;
+    list-style: circle;
+    border: 1px solid rgb(180, 124, 124);
+    margin-left: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.678);
+    border-radius: 5px;
+}
+
+
+.links_barra_lateral{
+   
+   color: rgb(75, 70, 70);
+}
+
+.links_nav{
     color:white ;
     text-decoration: none;
 }
@@ -55,7 +81,7 @@ a{
     border-radius: 20px;
 }
 
-main > section{
+#apresentacao{
     width: 80%;
     margin: auto;
     font-size: larger;
@@ -114,3 +140,13 @@ footer > section > ul > li > a >img{
     width: 50px;
     height: 50px;
 } 
+
+/* Quem somos*/
+
+
+#text_hist{
+    width: 80%;
+    margin: auto;
+    font-size: larger;
+    text-align: justify;
+}
