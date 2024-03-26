@@ -57,18 +57,19 @@ header > nav > ul > li > a > img{
 
 #barra_lateral > ul{
     width: 130px;
-    height: 500px;
-    list-style: circle;
+    height: 200px;
+    list-style: none;
     border: 1px solid rgb(180, 124, 124);
     margin-left: 10px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.678);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.678);
     border-radius: 5px;
     position: fixed;
+    padding: 5px;
 }
 
 
 .links_barra_lateral{
-   
+   text-decoration: none;
    color: rgb(75, 70, 70);
 }
 
